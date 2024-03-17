@@ -23,11 +23,11 @@ class Program
         }
 
         var maxValue = numbers[0];
-        foreach (var number in numbers)
+        foreach (var number2 in numbers)
         {
-            if (number > maxValue)
+            if (number2 > maxValue)
             {
-                maxValue = number;
+                maxValue = number2;
             }
         }
         return maxValue;
